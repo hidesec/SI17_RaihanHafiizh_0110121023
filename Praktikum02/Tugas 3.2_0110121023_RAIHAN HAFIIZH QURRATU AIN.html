@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Web Page</title>
+</head>
+<body style="background-color:hsl(0, 0%, 93%);">
+  <div style="border: 2px solid black; background-color: white; margin: 10px 30px 10px 10px;">
+    <ul style="display: flex; justify-content: start; list-style-type: none; ">
+      <li style="padding: 0px 15px 0px 5px; border-right: 2px solid black;">Home</li>
+      <li  style="padding: 0px 15px 0px 100px; border-right: 2px solid black;">Generate Link</li>
+      <li  style="padding: 0px 15px 0px 100px; border-right: 2px solid black;">Transaction History</li>
+      <li  style="padding: 0px 15px 0px 100px; border-right: 2px solid black;">Policy</li>
+      <li  style="padding: 0px 15px 0px 100px">Logout</li>
+    </ul>
+  </div>
+  <table>
+    <tr>
+      <td>
+        <div style="margin-left: 8px;">
+          <span style="border: 2px solid black;padding: 100px; background-color: white"></span>
+          <br>
+          <button style="margin-top: 120px">Upload Picture</button>
+        </div>
+      </td>
+      <td>
+        <div style="margin-left: 8px;margin-top: -30px;">
+          <div style="margin-bottom: 3px;">
+            <label for="title">Title Here : </label> 
+          </div>
+          <div style="margin-bottom: 67px;">
+            <label  for="Description">Description: </label>
+          </div>
+          <div style="margin-bottom: 3px;">
+            <label for="Account Number">Account Number : </label>
+          </div>
+            
+          <div style="margin-bottom: 3px;">
+            <label for="Bank">Bank : </label> 
+          </div>
+          <div style="margin-bottom: 3px;">
+            <label for="Account Holder">Account Holder : </label>
+
+          </div>
+          <div style="margin-bottom: 93px;">
+            <label  for="Transaction">Transaction : </label>
+
+          </div>
+          <div style="margin-bottom: 3px;">
+            <label for="Send to Mobile Phone">Send to Mobile Phone : </label>
+
+          </div>
+          <div style="margin-bottom: 3px;">
+            <label for="Send to Email">Send to Email : </label> 
+
+          </div>
+
+      
+        </div>
+      </td>
+      <td>
+        <input style="margin-bottom: 3px;" type="text" name="title" value="Macbook Air €800"> <br>
+        <textarea style="margin-bottom: 3px;" name="description" rows="4" cols="50" >
+Year: 2009
+Model:
+Condition: Mint
+        </textarea> <br>
+        <input style="margin-bottom: 3px;"  type="text" name="Account Number" value="123-456-789-0"> <br>
+        <select style="margin-bottom: 3px; width: 300px;" name="Bank" id="Bank">
+          <option value="HSBC">HSBC</option>
+          <option value="CIMB">CIMB</option>
+        </select><br>
+        <input style="margin-bottom: 3px; width: 350px;" type="text" name="Account Holder" value="Name Here"><br>
+        <select style="width:35px" name="Transaction" id="Transaction"> 
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+
+        <p>* if the transaction is for 3 person, choose 3 from the drop-down list</p>
+        <div>
+          <input style="margin-bottom: 3px;" id="Send to Mobile Phone" checked type="checkbox" name="send" value="Send to Mobile Phone"><label style=" color: #7EA279;" for="Send to Mobile Phone"> Send to Mobile Phone</label>
+        </div>
+
+        <div>
+          <input style="margin-bottom: 3px;" id="Send to Email" checked type="checkbox"  name="send" value="Send to Email"><label style=" color: #7EA279;" for="Send to Email"> Send to Email</label>
+        </div>
+
+        <input style="margin-bottom: 3px; width: 350px;" type="text" name="Send to Mobile Phone" value="1234567890, 123457891"><br>
+        <input style="margin-bottom: 3px; width: 350px;" type="email" name="Send to Email" value="mfmm2g13@soton.ac.uk, fys_06@yahoo.com">
+        <br>
+        <input style="width: 150px; color: white; background-color: #009E0F;" type="button" value="Generate New Link">
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
