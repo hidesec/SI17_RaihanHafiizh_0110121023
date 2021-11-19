@@ -1,0 +1,38 @@
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: relative;
+}
+.box-yellow{
+    background-color: #f4eb49;
+    position: absolute;
+    left: 0vw;
+}
+
+.box-orange{
+    background-color: #ff6624;
+    position: absolute;
+    left: 24vw;
+}
+.box-green{
+    background-color: #aedd94;
+    position: absolute;
+    left: 47vw;
+}
+.box-blue{
+    background-color: #4dd7fa;
+    position: absolute;
+    left: 70vw;
+}
+
+[class*='box-']{
+    border: 1px solid black;
+    padding: 45vh 10vw;
+    margin: 3vh 2.1vw;
+}

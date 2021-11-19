@@ -1,0 +1,63 @@
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+}
+
+[class*='box-']{
+    border: 1px solid black;
+}
+.wrapper-1 {
+    width: 98vw;
+    height: 25vh;
+}
+
+.box-yellow{
+    margin-top: 1em;
+    float: left;
+    background-color: #f4eb49;
+    padding: 10vh 9.5vw;
+}
+
+.box-orange{
+    margin-top: 1em;
+    float: right;
+    background-color: #ff6624;
+    padding: 10vh 39vw;
+}
+
+.wrapper-2{
+    width: 98vw;
+    height: 60vh;
+}
+.box-green{
+    float: left;
+    padding: 30vh 9.5vw;
+    background-color: #aedd94;
+}
+
+.box-gray{
+    margin-left: 1em;
+    float: left;
+    padding: 30vh 29vw;
+    background-color: #d1d6db;
+}
+
+.box-blue{
+    float: right;
+    padding: 30vh 9.5vw;
+    background-color: #4DD7FA;
+}
+
+.wrapper-3{
+    width: 98vw;
+    height: 10vh;
+}
+
+.box-dark-blue{
+    margin-top: 1em;
+    padding: 5vh 48vw;
+    background-color: #1464f6;
+}
