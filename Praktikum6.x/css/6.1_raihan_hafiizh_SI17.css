@@ -1,0 +1,11 @@
+.line1 {
+    display: flex;
+    margin-bottom: 0.2cm;
+    justify-content: space-between;
+}
+
+.line2 {
+    display: flex;
+    margin-top: 0.2cm;
+    justify-content: space-between;
+}
